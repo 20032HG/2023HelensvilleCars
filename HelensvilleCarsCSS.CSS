@@ -1,0 +1,119 @@
+/* Background information */
+body {background-color: #7B7B7B;}
+	*{
+  margin: 0;
+  padding: 0;
+	}
+
+/* Font information */
+p {
+	font: Calibri;
+	font-size: 16;
+	color: #000000;
+    margin: 10;
+    padding: 10;
+}
+p { 
+   color: #FFFFFF; 
+   text-align: center;
+  } 
+  a { 
+   color: #FFFFFF; 
+  } 
+
+/* This code is for the header image on the home page */
+.homepage {
+	width: 100%;
+}
+
+/* This code is for the navigation bar and it has the settings for it's colour */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+/* Navigation bar code */
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+
+  text-decoration: none;
+}
+
+/* Font information */
+li a:hover {
+  background-color: #111;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Logo Class for margin */
+.logo {
+	margin-left: 10px;
+}
+
+/* Colour for the january in the calender */
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0px;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 14%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 14%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #000000;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #222222;
+  color: white
+}
+/* Car page company lists */
+.BMW {
+	text-align: left;
+}
+
+.Ford {
+	text-align: center;
+}
+
+.Holden {
+	text-align: right;
+}
